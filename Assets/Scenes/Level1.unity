@@ -819,17 +819,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 311947ab3cf67f14c9ce9a405f2135b2, type: 2}
-  m_sharedMaterial: {fileID: 5053207469190504594, guid: d55f0b4a820ae58408ccb347ee992ce0,
+  m_sharedMaterial: {fileID: 6900379147606072688, guid: 311947ab3cf67f14c9ce9a405f2135b2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -883,10 +883,10 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -776.51154, y: -307.89108, z: -786.3272, w: -336.22925}
+  m_margin: {x: -359.68454, y: -158.65677, z: -359.20825, w: -289.91507}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &468798443
@@ -1161,7 +1161,8 @@ MonoBehaviour:
   m_text: "\u200B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 311947ab3cf67f14c9ce9a405f2135b2, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 6900379147606072688, guid: 311947ab3cf67f14c9ce9a405f2135b2,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2149,7 +2150,7 @@ MonoBehaviour:
   m_text: Check!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 311947ab3cf67f14c9ce9a405f2135b2, type: 2}
-  m_sharedMaterial: {fileID: 5053207469190504594, guid: d55f0b4a820ae58408ccb347ee992ce0,
+  m_sharedMaterial: {fileID: 6900379147606072688, guid: 311947ab3cf67f14c9ce9a405f2135b2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2907,11 +2908,46 @@ PrefabInstance:
       propertyPath: submitButton
       value: 
       objectReference: {fileID: 1219042703}
+    - target: {fileID: 4855354791167492708, guid: c7ffc95f7de8f644caa907bf313adcb8,
+        type: 3}
+      propertyPath: reserveBirds.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855354791167492708, guid: c7ffc95f7de8f644caa907bf313adcb8,
+        type: 3}
+      propertyPath: emptyStars.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855354791167492708, guid: c7ffc95f7de8f644caa907bf313adcb8,
+        type: 3}
+      propertyPath: emptyStars.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855354791167492708, guid: c7ffc95f7de8f644caa907bf313adcb8,
+        type: 3}
+      propertyPath: emptyStars.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855354791167492708, guid: c7ffc95f7de8f644caa907bf313adcb8,
+        type: 3}
+      propertyPath: reserveBirds.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855354791167492708, guid: c7ffc95f7de8f644caa907bf313adcb8,
+        type: 3}
+      propertyPath: reserveBirds.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4855354791331150602, guid: c7ffc95f7de8f644caa907bf313adcb8,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4855354791491767958, guid: c7ffc95f7de8f644caa907bf313adcb8,
+        type: 3}
+      propertyPath: birdPrefab
+      value: 
+      objectReference: {fileID: 100000, guid: 2809d5453e912ed459919d777e07a2e3, type: 3}
     - target: {fileID: 4855354792412394620, guid: c7ffc95f7de8f644caa907bf313adcb8,
         type: 3}
       propertyPath: m_IsActive
